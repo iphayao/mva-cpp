@@ -14,13 +14,13 @@ public:
 
 	}
 
-	int get_width() { return _width; }
-	int get_height() { return _height; }
+	int get_width() const { return _width; }
+	int get_height() const { return _height; }
 
 	void resize(int new_width, int new_height) {
 		_width = new_width;
 		_height = new_height;
 	}
 
-	int area();
+	int area() const;
 };
