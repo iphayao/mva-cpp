@@ -9,10 +9,13 @@ int main() {
 
 	Rectangle uninitialized;
 	Rectangle value{};
-	Rectangle aggregate{ 2, 3 };
+	Rectangle aggregate{ 4, 7 };
 
-	value._width = 2;
-	value._height = 3;
+	value.resize(5, 5);
+	aggregate.resize(1, 2);
 
+	int area_of_value{ value.area() };
+	int area_of_aggregate{ aggregate.area() };
+	
 	return 0;
 }
