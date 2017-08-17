@@ -1,17 +1,17 @@
 #pragma once
 #include "Shape.h"
 
-class Rectangle : public Shape {
+class Triangle : public Shape {
 private:
 	int _width;
 	int _height;
 
 public:
-	Rectangle() : _width{ 1 }, _height{ 1 } {
+	Triangle() : _width{ 1 }, _height{ 1 } {
 
 	}
 
-	Rectangle(int initial_width, int initial_height)
+	Triangle(int initial_width, int initial_height)
 		: _width{ initial_width }, _height{ initial_height } {
 
 	}
