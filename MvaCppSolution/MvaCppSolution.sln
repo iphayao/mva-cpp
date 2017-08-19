@@ -25,6 +25,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Heap", "Heap\Heap.vcxproj",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lifetime", "Lifetime\Lifetime.vcxproj", "{93AD7475-A519-4981-8231-A5F139033FA2}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "STL", "STL\STL.vcxproj", "{9EFD1989-50FB-44B1-8A43-186D77CBAC42}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -121,6 +123,14 @@ Global
 		{93AD7475-A519-4981-8231-A5F139033FA2}.Release|x64.Build.0 = Release|x64
 		{93AD7475-A519-4981-8231-A5F139033FA2}.Release|x86.ActiveCfg = Release|Win32
 		{93AD7475-A519-4981-8231-A5F139033FA2}.Release|x86.Build.0 = Release|Win32
+		{9EFD1989-50FB-44B1-8A43-186D77CBAC42}.Debug|x64.ActiveCfg = Debug|x64
+		{9EFD1989-50FB-44B1-8A43-186D77CBAC42}.Debug|x64.Build.0 = Debug|x64
+		{9EFD1989-50FB-44B1-8A43-186D77CBAC42}.Debug|x86.ActiveCfg = Debug|Win32
+		{9EFD1989-50FB-44B1-8A43-186D77CBAC42}.Debug|x86.Build.0 = Debug|Win32
+		{9EFD1989-50FB-44B1-8A43-186D77CBAC42}.Release|x64.ActiveCfg = Release|x64
+		{9EFD1989-50FB-44B1-8A43-186D77CBAC42}.Release|x64.Build.0 = Release|x64
+		{9EFD1989-50FB-44B1-8A43-186D77CBAC42}.Release|x86.ActiveCfg = Release|Win32
+		{9EFD1989-50FB-44B1-8A43-186D77CBAC42}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
