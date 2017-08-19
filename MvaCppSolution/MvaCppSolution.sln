@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.3
+VisualStudioVersion = 15.0.26730.8
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HelloWorld", "HelloWorld\HelloWorld.vcxproj", "{4F7DE092-0480-4C58-BDA7-F108EF181AF1}"
 EndProject
@@ -20,6 +20,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Inheritance", "Inheritance\Inheritance.vcxproj", "{29D8A5D7-6300-415D-9DFB-05008BF51F6C}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pointers", "Pointers\Pointers.vcxproj", "{4C906567-2564-44FC-A084-A7898C68AD60}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Heap", "Heap\Heap.vcxproj", "{5B6E8286-579A-403F-B4E9-CF01531EFB89}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -101,6 +103,14 @@ Global
 		{4C906567-2564-44FC-A084-A7898C68AD60}.Release|x64.Build.0 = Release|x64
 		{4C906567-2564-44FC-A084-A7898C68AD60}.Release|x86.ActiveCfg = Release|Win32
 		{4C906567-2564-44FC-A084-A7898C68AD60}.Release|x86.Build.0 = Release|Win32
+		{5B6E8286-579A-403F-B4E9-CF01531EFB89}.Debug|x64.ActiveCfg = Debug|x64
+		{5B6E8286-579A-403F-B4E9-CF01531EFB89}.Debug|x64.Build.0 = Debug|x64
+		{5B6E8286-579A-403F-B4E9-CF01531EFB89}.Debug|x86.ActiveCfg = Debug|Win32
+		{5B6E8286-579A-403F-B4E9-CF01531EFB89}.Debug|x86.Build.0 = Debug|Win32
+		{5B6E8286-579A-403F-B4E9-CF01531EFB89}.Release|x64.ActiveCfg = Release|x64
+		{5B6E8286-579A-403F-B4E9-CF01531EFB89}.Release|x64.Build.0 = Release|x64
+		{5B6E8286-579A-403F-B4E9-CF01531EFB89}.Release|x86.ActiveCfg = Release|Win32
+		{5B6E8286-579A-403F-B4E9-CF01531EFB89}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
